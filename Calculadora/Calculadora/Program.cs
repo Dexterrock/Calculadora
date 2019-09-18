@@ -8,7 +8,7 @@ namespace Calculadora
             int n1, n2, n3, opciones;
             //MENÚ DE FUNCIONES//
             Console.WriteLine("CALCULADORA \n"+"Ingresa el número de la función a realizar. \n"
-                +"1.SUMA \n" + "2.RESTA \n" + "3.MULTIPLICACIÓN \n" + "4.DIVISIÓN");
+                +"1.SUMA \n" + "2.RESTA \n" + "3.DIVISION\n" + "4.MULTIPLICACIÓN");
             opciones = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingresa el Primer Número");
             n1 = Convert.ToInt32(Console.ReadLine());
